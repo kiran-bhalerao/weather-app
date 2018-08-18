@@ -1,0 +1,55 @@
+body {
+  margin:20px;
+}
+.App {
+  text-align: center;
+}
+.web-title {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+td,th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+svg {
+  height: 180px;
+  width:280px;
+}
+td {
+    padding: 20px 0px 15px 0px !important;
+}
+.thead-dark {
+  background-color: #424242 !important;
+  color: white !important;
+}
+
+.input-group {
+  margin:20px 0px;
+}
