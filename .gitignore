@@ -2,7 +2,7 @@
 
 # dependencies
 /node_modules
-/context
+/src/context
 
 # testing
 /coverage
