@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import getFetchAction from '../actions/index';
-import axiosRequest from '../API/axios';
+import getFetchAction from '../actions';
+import axiosRequest from '../API';
 
 class SearchBar extends Component {
 	constructor(props) {
