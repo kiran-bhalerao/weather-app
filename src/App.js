@@ -13,9 +13,7 @@ class App extends Component {
         <Script
          url={API_URL}
         />
-      <div className='App web-title'>
-      <h1>SearchWeather</h1>
-      </div>
+      <h1 className='App web-title'>SearchWeather</h1>
       <div>
         <SearchBar />
         <WeatherList />
