@@ -39,4 +39,16 @@ class WeatherList extends Component {
 const mapStateToProp = ((state)=>({
 	...state
 }));
+
 export default connect(mapStateToProp)(WeatherList);
+
+import React from 'react';
+
+import React from 'react';
+import { connect } from 'react-redux';
+
+function mapStateToProps(state) {
+    return {
+
+    };
+}
