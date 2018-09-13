@@ -2,10 +2,6 @@
 
 # dependencies
 /node_modules
-<<<<<<< HEAD
-# This is confidential
-=======
->>>>>>> parent of ffa4040... added context file
 /src/context
 
 # testing
