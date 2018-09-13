@@ -19,6 +19,7 @@ const axiosRequest = (address) => {
                     return axios.get(weatherURL);
                 } else
                     throw new Error('Unknown Error, try again!');
+
             })
             .then((response) => {
                 res({

@@ -9,8 +9,10 @@ class App extends Component {
   render() {
     let API_URL = `https://apis.mapmyindia.com/advancedmaps/v1/${MAPMYINDIA_API_KEY}/map_load?v=0.1`;
     return (
-      <div>
-        <Script url={API_URL} />
+       <div>
+        <Script
+         url={API_URL}
+        />
       <h1 className='App web-title'>SearchWeather</h1>
       <div>
         <SearchBar />
